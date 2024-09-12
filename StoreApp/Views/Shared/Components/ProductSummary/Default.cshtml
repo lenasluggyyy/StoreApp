@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Entities.Models.Product>
+
+<div class="my-5">
+    <ul class="list-group">
+        @foreach (var item in Model)
+        {
+            <li class="list-group-item">
+                @item.ProductName
+            </li>
+        }
+    </ul>
+</div>

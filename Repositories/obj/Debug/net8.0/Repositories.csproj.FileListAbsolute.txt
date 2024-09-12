@@ -1,0 +1,15 @@
+C:\Rhodusssa\Store\Repositories\bin\Debug\net8.0\Repositories.deps.json
+C:\Rhodusssa\Store\Repositories\bin\Debug\net8.0\Repositories.dll
+C:\Rhodusssa\Store\Repositories\bin\Debug\net8.0\Repositories.pdb
+C:\Rhodusssa\Store\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rhodusssa\Store\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+C:\Rhodusssa\Store\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+C:\Rhodusssa\Store\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+C:\Rhodusssa\Store\Repositories\obj\Debug\net8.0\Repositories.dll
+C:\Rhodusssa\Store\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+C:\Rhodusssa\Store\Repositories\obj\Debug\net8.0\Repositories.pdb
+C:\Rhodusssa\Store\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+C:\Rhodusssa\Store\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+C:\Rhodusssa\Store\Repositories\bin\Debug\net8.0\Entities.dll
+C:\Rhodusssa\Store\Repositories\bin\Debug\net8.0\Entities.pdb
+C:\Rhodusssa\Store\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date

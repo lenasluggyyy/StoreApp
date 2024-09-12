@@ -1,0 +1,11 @@
+C:\Rhodusssa\Store\Entities\bin\Debug\net8.0\Entities.deps.json
+C:\Rhodusssa\Store\Entities\bin\Debug\net8.0\Entities.dll
+C:\Rhodusssa\Store\Entities\bin\Debug\net8.0\Entities.pdb
+C:\Rhodusssa\Store\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rhodusssa\Store\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\Rhodusssa\Store\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\Rhodusssa\Store\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\Rhodusssa\Store\Entities\obj\Debug\net8.0\Entities.dll
+C:\Rhodusssa\Store\Entities\obj\Debug\net8.0\refint\Entities.dll
+C:\Rhodusssa\Store\Entities\obj\Debug\net8.0\Entities.pdb
+C:\Rhodusssa\Store\Entities\obj\Debug\net8.0\ref\Entities.dll

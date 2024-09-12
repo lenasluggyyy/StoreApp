@@ -1,0 +1,225 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\site.css" />
+    <None Include="wwwroot\html\Error.html" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-grid.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-grid.rtl.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-grid.rtl.min.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-reboot.rtl.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-reboot.rtl.min.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-utilities.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-utilities.min.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-utilities.rtl.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-utilities.rtl.min.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap.rtl.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap.rtl.min.css" />
+    <None Include="wwwroot\lib\boostrap\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\lib\boostrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\boostrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\boostrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\boostrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\boostrap\js\bootstrap.esm.js" />
+    <None Include="wwwroot\lib\boostrap\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\lib\boostrap\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\lib\boostrap\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\lib\boostrap\js\bootstrap.js" />
+    <None Include="wwwroot\lib\boostrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\boostrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\boostrap\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\boostrap\scss\bootstrap-grid.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\bootstrap-reboot.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\bootstrap-utilities.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\bootstrap.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\forms\_floating-labels.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\forms\_form-check.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\forms\_form-control.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\forms\_form-range.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\forms\_form-select.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\forms\_form-text.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\forms\_input-group.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\forms\_labels.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\forms\_validation.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\helpers\_clearfix.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\helpers\_color-bg.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\helpers\_colored-links.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\helpers\_focus-ring.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\helpers\_icon-link.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\helpers\_position.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\helpers\_ratio.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\helpers\_stacks.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\helpers\_stretched-link.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\helpers\_text-truncation.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\helpers\_visually-hidden.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\helpers\_vr.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_alert.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_backdrop.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_banner.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_border-radius.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_box-shadow.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_breakpoints.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_buttons.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_caret.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_clearfix.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_color-mode.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_color-scheme.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_container.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_deprecate.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_forms.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_gradients.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_grid.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_image.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_list-group.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_lists.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_pagination.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_reset-text.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_resize.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_table-variants.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_text-truncate.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_transition.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_utilities.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\mixins\_visually-hidden.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\utilities\_api.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\vendor\_rfs.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_accordion.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_alert.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_badge.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_breadcrumb.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_button-group.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_buttons.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_card.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_carousel.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_close.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_containers.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_dropdown.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_forms.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_functions.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_grid.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_helpers.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_images.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_list-group.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_maps.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_mixins.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_modal.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_nav.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_navbar.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_offcanvas.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_pagination.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_placeholders.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_popover.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_progress.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_reboot.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_root.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_spinners.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_tables.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_toasts.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_tooltip.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_transitions.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_type.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_utilities.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_variables-dark.scss" />
+    <None Include="wwwroot\lib\boostrap\scss\_variables.scss" />
+    <None Include="wwwroot\lib\font-awesome\css\all.css" />
+    <None Include="wwwroot\lib\font-awesome\css\all.min.css" />
+    <None Include="wwwroot\lib\font-awesome\css\brands.css" />
+    <None Include="wwwroot\lib\font-awesome\css\brands.min.css" />
+    <None Include="wwwroot\lib\font-awesome\css\fontawesome.css" />
+    <None Include="wwwroot\lib\font-awesome\css\fontawesome.min.css" />
+    <None Include="wwwroot\lib\font-awesome\css\regular.css" />
+    <None Include="wwwroot\lib\font-awesome\css\regular.min.css" />
+    <None Include="wwwroot\lib\font-awesome\css\solid.css" />
+    <None Include="wwwroot\lib\font-awesome\css\solid.min.css" />
+    <None Include="wwwroot\lib\font-awesome\css\svg-with-js.css" />
+    <None Include="wwwroot\lib\font-awesome\css\svg-with-js.min.css" />
+    <None Include="wwwroot\lib\font-awesome\css\v4-font-face.css" />
+    <None Include="wwwroot\lib\font-awesome\css\v4-font-face.min.css" />
+    <None Include="wwwroot\lib\font-awesome\css\v4-shims.css" />
+    <None Include="wwwroot\lib\font-awesome\css\v4-shims.min.css" />
+    <None Include="wwwroot\lib\font-awesome\css\v5-font-face.css" />
+    <None Include="wwwroot\lib\font-awesome\css\v5-font-face.min.css" />
+    <None Include="wwwroot\lib\font-awesome\js\all.js" />
+    <None Include="wwwroot\lib\font-awesome\js\all.min.js" />
+    <None Include="wwwroot\lib\font-awesome\js\brands.js" />
+    <None Include="wwwroot\lib\font-awesome\js\brands.min.js" />
+    <None Include="wwwroot\lib\font-awesome\js\conflict-detection.js" />
+    <None Include="wwwroot\lib\font-awesome\js\conflict-detection.min.js" />
+    <None Include="wwwroot\lib\font-awesome\js\fontawesome.js" />
+    <None Include="wwwroot\lib\font-awesome\js\fontawesome.min.js" />
+    <None Include="wwwroot\lib\font-awesome\js\regular.js" />
+    <None Include="wwwroot\lib\font-awesome\js\regular.min.js" />
+    <None Include="wwwroot\lib\font-awesome\js\solid.js" />
+    <None Include="wwwroot\lib\font-awesome\js\solid.min.js" />
+    <None Include="wwwroot\lib\font-awesome\js\v4-shims.js" />
+    <None Include="wwwroot\lib\font-awesome\js\v4-shims.min.js" />
+    <None Include="wwwroot\lib\font-awesome\sprites\brands.svg" />
+    <None Include="wwwroot\lib\font-awesome\sprites\regular.svg" />
+    <None Include="wwwroot\lib\font-awesome\sprites\solid.svg" />
+    <None Include="wwwroot\lib\font-awesome\webfonts\fa-brands-400.ttf" />
+    <None Include="wwwroot\lib\font-awesome\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\lib\font-awesome\webfonts\fa-regular-400.ttf" />
+    <None Include="wwwroot\lib\font-awesome\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\lib\font-awesome\webfonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\lib\font-awesome\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\lib\font-awesome\webfonts\fa-v4compatibility.ttf" />
+    <None Include="wwwroot\lib\font-awesome\webfonts\fa-v4compatibility.woff2" />
+    <None Include="wwwroot\lib\jquery\jquery.js" />
+    <None Include="wwwroot\lib\jquery\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\jquery.min.map" />
+    <None Include="wwwroot\lib\jquery\jquery.slim.js" />
+    <None Include="wwwroot\lib\jquery\jquery.slim.min.js" />
+    <None Include="wwwroot\lib\jquery\jquery.slim.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.3.3" />
+    <PackageReference Include="BootstrapBlazor.FontAwesome" Version="8.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameWorkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.6" />
+    <PackageReference Include="SQLitePCLRaw.core" Version="2.1.6" />
+    <!--
+	<PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.9" />
+    <PackageReference Include="SQLitePCLRaw.core" Version="2.1.9" />
+	-->
+  </ItemGroup>
+
+</Project>
